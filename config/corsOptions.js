@@ -1,5 +1,5 @@
 const allowedOrigins = [
-  "https://bug-free-happiness-v6wg7rpggpv7c6ppw-3000.app.github.dev",
+  "https://npsk.onrender.com",
   "http://localhost:3000",
 ];
 

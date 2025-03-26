@@ -1,5 +1,5 @@
 const allowedOrigins = [
-  "https://kollege.onrender.com",
+  "https://bug-free-happiness-v6wg7rpggpv7c6ppw-3000.app.github.dev",
   "http://localhost:3000",
 ];
 
@@ -8,7 +8,7 @@ const corsOptions = {
     if (
       allowedOrigins.indexOf(origin) !== -1
       //! remove in production
-      // || !origin
+      || !origin
     ) {
       callback(null, true);
     } else {
